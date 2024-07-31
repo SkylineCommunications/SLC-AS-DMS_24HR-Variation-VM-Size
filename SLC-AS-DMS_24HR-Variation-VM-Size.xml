@@ -1,20 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <DMSScript options="272" xmlns="http://www.skyline.be/automation">
 	<Name>24HR Variation VmSize</Name>
-	<Description></Description>
+	<Description>This script calculates the deviation of the Virtual Memory (VM) size for all the processes available in the task table of all the Microsoft platform elements in a system.</Description>
 	<Type>Automation</Type>
 	<Author>SKYLINE2\DPR</Author>
 	<CheckSets>FALSE</CheckSets>
 	<Folder>Health Check/Health Check Tests</Folder>
-
-	<Protocols>
-	</Protocols>
-
-	<Memory>
-	</Memory>
-
-	<Parameters>
-	</Parameters>
 
 	<Script>
 		<Exe id="1" type="csharp">
