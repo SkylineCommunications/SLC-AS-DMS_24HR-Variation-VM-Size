@@ -226,8 +226,8 @@ namespace SLC_AS_DMS_24HR_Variation_VM_Size_1
 					var processName = Convert.ToString(process[0]);
 					double? trendDifference24Hours = null;
 					var formattedkey = processName.ToUpperInvariant();
-					double temp;
-					if (averageVmSizes24HoursTo48Hours.TryGetValue(formattedkey, out temp) && averageVmSizes24Hours.TryGetValue(formattedkey, out temp))
+
+					if (averageVmSizes24HoursTo48Hours.TryGetValue(formattedkey, out _) && averageVmSizes24Hours.TryGetValue(formattedkey, out _))
 					{
 						trendDifference24Hours = GetAverageDifference(averageVmSizes24HoursTo48Hours[formattedkey], averageVmSizes24Hours[formattedkey]);
 
