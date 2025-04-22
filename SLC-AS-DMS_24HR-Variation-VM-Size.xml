@@ -5,8 +5,7 @@
 	<Type>Automation</Type>
 	<Author>SKYLINE2\DPR</Author>
 	<CheckSets>FALSE</CheckSets>
-	<Folder>Health Check/Health Check Tests</Folder>
-
+	<Folder>DataMiner Health Check/Protocol Scripts</Folder>
 	<Script>
 		<Exe id="1" type="csharp">
 			<Value><![CDATA[[Project:SLC-AS-DMS_24HR-Variation-VM-Size_1]]]></Value>
