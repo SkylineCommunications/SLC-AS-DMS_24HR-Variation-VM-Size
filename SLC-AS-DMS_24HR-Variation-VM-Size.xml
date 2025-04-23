@@ -6,6 +6,14 @@
 	<Author>SKYLINE2\DPR</Author>
 	<CheckSets>FALSE</CheckSets>
 	<Folder>DataMiner Health Check/Protocol Scripts</Folder>
+
+	<Protocols>
+	</Protocols>
+	<Memory>
+	</Memory>
+	<Parameters>
+	</Parameters>
+
 	<Script>
 		<Exe id="1" type="csharp">
 			<Value><![CDATA[[Project:SLC-AS-DMS_24HR-Variation-VM-Size_1]]]></Value>
